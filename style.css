@@ -1,0 +1,22 @@
+div{
+    height: 50px;
+    width: 290px;
+    background-color: aquamarine ;
+    color: orange;
+    padding: 10px;
+    margin: 50px;
+    font-size: 30pt;
+    box-shadow: gray 8px 8px 5px  ;
+    transition: 1s;
+    box-decoration-break: clone;
+}
+
+div:hover{
+    transform: translate(-10px , -10px);
+    box-shadow: rgb(22, 255, 99) 18px 18px 10px  ;
+    text-transform: uppercase;
+}
+div:active{
+    transform: translate(5px, 5px );
+    box-shadow: rgb(21, 220, 255) 3px 3px 1px  ;
+}
