@@ -9,6 +9,7 @@ div{
     box-shadow: gray 8px 8px 5px  ;
     transition: 1s;
     box-decoration-break: clone;
+    /*This is Div Class*/
 }
 
 div:hover{
